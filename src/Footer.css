@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+    max-height: '300px';
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Jarak antara tiap menu */
+  }
+  
+  .nav-link.active {
+    color: gray; /* Warna abu-abu untuk ikon aktif */
+  }
+  

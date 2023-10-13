@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6a769;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-content img {
+    width: 55px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 55px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    margin-right: 10px;
+  }
+  
+  .right-content img {
+    width: 33px; /* Sesuaikan ukuran ikon notifikasi sesuai kebutuhan */
+    height: 33px; /* Sesuaikan ukuran ikon notifikasi sesuai kebutuhan */
+  }
+
+  .notification-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 110%; /* Move it slightly below the notification icon */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Make the navbar appear on top of other content */
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Add a max-height to limit the size */
+    overflow-y: auto; /* Add scroll if content overflows */
+  }
+  

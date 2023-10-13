@@ -1,0 +1,12 @@
+/* Menu1.css */
+.menu1-container {
+    text-align: center;
+  }
+  
+  /* Styling for the carousel status indicator */
+  .carousel .carousel-status {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
